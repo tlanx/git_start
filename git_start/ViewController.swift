@@ -9,9 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+      let message="i am here"
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(message)
+        print(message)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
